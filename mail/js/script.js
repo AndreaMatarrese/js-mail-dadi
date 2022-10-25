@@ -7,13 +7,11 @@ console.log(userEmail)
 
 // METODO CON IF
 if (savedEmail.includes(userEmail)) {
-    console.log('la mail è già presente')
+    console.log('la mail è presente nell\'elenco')
     let userEmail = prompt('inserisci un\'altra email')
 } else {
-    savedEmail.push(userEmail)
-    console.log('la mail', userEmail ,'è stata salvata correttamente')
-    // let userEmail = prompt('Aggiungi ulteriore email')
-
+    console.log('la mail', userEmail ,'non è presente nella lista')
+    
 }
 
 // // METODO CON FOR
