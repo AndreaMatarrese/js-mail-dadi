@@ -8,11 +8,15 @@ console.log(userEmail)
 // METODO CON IF
 if (savedEmail.includes(userEmail)) {
     console.log('la mail è presente nell\'elenco')
-    let userEmail = prompt('inserisci un\'altra email')
+    console.log('La tua email', userEmail, 'può accedere')
+    // let userEmail = prompt('inserisci un\'altra email')
 } else {
     console.log('la mail', userEmail ,'non è presente nella lista')
+    console.log('La tua email', userEmail, 'non può accedere')
     
 }
+
+
 
 // // METODO CON FOR
 // let i= userEmail
